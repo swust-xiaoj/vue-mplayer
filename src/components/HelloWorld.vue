@@ -20,26 +20,27 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang='scss' scoped>
+$white: #fff;
 .swiper {
     height: 200px;
     font-size: 20px;
 }
 .slide1 {
     background-color: #0089dc;
-    color: #fff;
+    color: $white;
     line-height: 200px;
     height: 200px;
 }
 .slide2 {
     background-color: #ffd705;
-    color: #fff;
+    color: $white;
     line-height: 200px;
     height: 200px;
 }
 .slide3 {
     background-color: #ff2d4b;
-    color: #fff;
+    color: $white;
     line-height: 200px;
     height: 200px;
 }

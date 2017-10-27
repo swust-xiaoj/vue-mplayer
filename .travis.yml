@@ -1,0 +1,15 @@
+language: node_js
+node_js: stable
+install:
+  - npm install
+script:
+  - npm run build
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $travis_music
+  local_dir: dist
+  name: swust-xiaoj
+  email: swustxiaojie@163.com
+  on:
+    branch: master

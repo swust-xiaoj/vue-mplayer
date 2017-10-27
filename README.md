@@ -1,5 +1,5 @@
 # vue-mplayer
-
+[![Build Status](https://travis-ci.org/swust-xiaoj/vue-mplayer.svg?branch=master)](https://travis-ci.org/swust-xiaoj/vue-mplayer)
 > a music player, use vue-cli + webpack template
 
 ## Build Setup
